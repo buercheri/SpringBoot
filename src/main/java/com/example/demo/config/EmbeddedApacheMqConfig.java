@@ -6,7 +6,6 @@ import org.apache.activemq.command.ActiveMQQueue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.annotation.EnableJms;
-import org.springframework.jms.core.JmsTemplate;
 
 @EnableJms
 @Configuration
@@ -17,8 +16,4 @@ public class EmbeddedApacheMqConfig {
 		return new ActiveMQQueue("inmemory.queue");
 	}
 	
-//	@Bean
-//	public JmsTemplate createJmsTemplate() {
-//		return new JmsTemplate();
-//	}
 }
