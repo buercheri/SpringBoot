@@ -11,9 +11,11 @@ http://localhost:12378/demo/swagger-ui.html
 - see https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
 
 ApacheMQ
-- https://youtu.be/w78qhfpnLA0
+- https://youtu.be/zaCXYkzLgJc
 - https://github.com/TechPrimers/inmemory-spring-boot-activemq-example
-- https://www.youtube.com/watch?v=zaCXYkzLgJc
+- https://youtu.be/w78qhfpnLA0
+- https://github.com/TechPrimers/standalone-spring-boot-activemq-example
+https://youtu.be/w78qhfpnLA0
 
 Standalone ActiveMQ (profile -> prod)
 Open cmd
