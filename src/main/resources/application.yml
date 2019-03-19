@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /demo
+  port: 12378
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "hawtio,jolokia"
+hawtio:
+    authenticationEnabled: false
+
+spring:
+  profiles:
+    active: dev

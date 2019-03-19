@@ -3,7 +3,8 @@ Experimentation of Spring Boot for Java
 
 Configuration by using application.properties
 http://localhost:12378/demo/api/v1/hello
-http://localhost:12378/demo/api/v1/publish/helloWorld
+http://localhost:12378/demo/api/v1/publish/{message}
+ex: http://localhost:12378/demo/api/v1/publish/Hello World!
 
 Swagger
 http://localhost:12378/demo/swagger-ui.html
@@ -15,14 +16,18 @@ ApacheMQ
 - https://github.com/TechPrimers/inmemory-spring-boot-activemq-example
 - https://youtu.be/w78qhfpnLA0
 - https://github.com/TechPrimers/standalone-spring-boot-activemq-example
-https://youtu.be/w78qhfpnLA0
 
 Standalone ActiveMQ (profile -> prod)
 Open cmd
 In directory ...\apache-activemq-5.15.8\bin
 Start Active MQ by entering: activemq start
 http://127.0.0.1:8161/admin/
+User: admin, Password: admin
 http://127.0.0.1:8161/admin/connections.jsp
 Start Spring Boot application
 Hit http://localhost:12378/demo/api/v1/publish/helloWorld
 If Consumer (MessageListener) exists, mesage is dequeued
+
+Hawt.io
+- https://hawt.io/docs/get-started/
+- https://jamesnetherton.github.io/2018/11/14/hawtio-spring-boot-support/
